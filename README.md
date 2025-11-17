@@ -1,4 +1,4 @@
-#📊 BrightLearn Sales Case Study – Retail Product Analysis
+# 📊 BrightLearn Sales Case Study – Retail Product Analysis
 
 
 
@@ -9,11 +9,11 @@
 
 
 
-##🧭 Project Overview
+## 🧭 Project Overview
 
 This repository contains an end-to-end analysis of daily sales data for a single retail product sold in a large store. Using simulated transactional data, the project uncovers trends in demand, evaluates promotional performance, and delivers actionable recommendations to optimize pricing, profitability, and inventory planning.
 
-##🎯 Project Objectives
+## 🎯 Project Objectives
 
 Calculate key sales metrics, including unit price, gross profit %, and gross profit per unit.
 
@@ -23,7 +23,7 @@ Examine patterns in sales volume, pricing, and profitability across weekdays and
 
 Communicate insights through dashboards, visuals, and a storytelling approach.
 
-##🔍 Key Findings
+## 🔍 Key Findings
 
 Saturday is the most profitable day—both in total profit and per-unit margin.
 
@@ -35,7 +35,7 @@ Some promotional periods increased volume effectively, while others reduced over
 
 Weekday pricing is generally higher than weekend pricing, reflecting strategic customer segmentation.
 
-##✅ Recommendations
+## ✅ Recommendations
 
 Boost Saturday performance through eye-catching promotions and prioritized inventory.
 
@@ -47,12 +47,12 @@ Apply PED insights to optimize promotional timing and discount depth.
 
 Create a pricing calendar aligned with customer behavior, weekday patterns, and seasonal trends.
 
-##🧪 Analytical Approach
-1. Data Preparation
+## 🧪 Analytical Approach
+### 1. Data Preparation
 
 Cleaned and structured daily sales data using Google Sheets and Databricks.
 
-2. Metric Calculation
+### 2. Metric Calculation
 
 Unit Price = Sales ÷ Quantity Sold
 
@@ -60,39 +60,39 @@ Gross Profit % = (Sales − Cost of Sales) ÷ Sales
 
 Gross Profit per Unit = Unit Price − Unit Cost
 
-3. Promotion Analysis
+### 3. Promotion Analysis
 
 Identified three promotional periods and calculated PED to measure responsiveness to price changes.
 
-4. Visualization
+### 4. Visualization
 
 Designed clear visuals using Canva and developed interactive dashboards in Google Looker.
 
-5. Planning & Collaboration
+### 5. Planning & Collaboration
 
 Mapped workflow, insights, and presentation structure in Miro.
 
-##📁 Repository Structure
-.
-├── 1_Project_Description_and_Raw_Data
+## 📁 Repository Structure
+
+### ├── 1_Project_Description_and_Raw_Data
 │   ├── project_description.md
 │   └── raw_data.csv
 │
-├── 2_Project_Planning
+### ├── 2_Project_Planning
 │   ├── miro_flowchart.png
 │   └── project_gantt_chart.png
 │
-├── 3_Data_Processing
+### ├── 3_Data_Processing
 │   ├── calculations.sql
 │   ├── working_file.xlsx
 │   └── processed_data.csv
 │
-└── 4_Project_Presentation
+### └── 4_Project_Presentation
     ├── final_presentation.pdf
     └── dashboards (Looker / Power BI)
 
 
-##🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 Tool	Purpose
 Canva	Storytelling visuals & chart design
 Miro	Process mapping & project planning
@@ -101,7 +101,7 @@ Databricks	Advanced data processing & SQL transformations
 Snowflake	Secure data storage & querying
 Google Looker	Dashboard creation & KPI monitoring
 
-##📝 Summary
+## 📝 Summary
 
 This case study demonstrates how structured analytics and data storytelling can uncover high-value opportunities in retail pricing and promotions. By integrating data cleaning, metric modeling, promotional analysis, and dashboarding, the project provides BrightLearn with actionable insights to enhance profitability, optimize promotions, and refine pricing strategies.
 
